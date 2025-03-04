@@ -14,7 +14,7 @@ if %errorlevel% equ 0 (
 
 rmdir /s /q "%USERPROFILE%\AppData\Local\FiveM\FiveM.app\data"
 
-if exist "%USERPROFILE%\Desktop\Test" (
+if exist "%USERPROFILE%\AppData\Local\FiveM\FiveM.app\data" (
     echo Failed to delete the folder.
 ) else (
     echo Successfully Cleand Fivem Chache.
